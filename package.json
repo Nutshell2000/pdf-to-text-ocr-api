@@ -1,0 +1,14 @@
+{
+  "name": "pdf-to-text-ocr-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Send PDF links, get back clean text per document or per page, metadata, and OCR for scanned pages only (12 languages). Pages that already have text are never OCRed or charged for OCR.",
+  "scripts": {
+    "start": "node example.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.0"
+  },
+  "license": "MIT"
+}
